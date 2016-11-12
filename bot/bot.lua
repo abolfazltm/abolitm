@@ -230,6 +230,7 @@ function create_config( )
       "youtube" },
     sudo_users = {},
     
+    
     disabled_channels = {}
   }
   serialize_to_file(config, './data/config.lua')
